@@ -1,22 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 body {
-    background: #000;
+  background: #000;
 }
 
 .header-text {
-    color: #FFF;
-    font-family: DM Mono, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
-    width: 90px;
-    flex-shrink: 0;
-    text-decoration: none;
+  color: #fff;
+  font-family: DM Mono, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  width: 90px;
+  flex-shrink: 0;
+  text-decoration: none;
 }
 
 .logos {
-    background: #FFF;
-    width: 36px;
-    height: 36px;
-    flex-shrink: 0;
+  background: #fff;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
 }
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.artist {
+  color: #fff;
+  font-family: Audiowide,sans-serif;
+  font-size: 79px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 88px; /* 111.392% */
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.artists {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.artist-name {
+  color: #fff;
+  text-align: center;
+  font-family: DM Mono, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.artist-item {
+  width: 20%;
+}
+
+.header-section{
+    color: #FFF;
+text-align: center;
+font-family: Audiowide, sans-serif;
+font-size: 37px;
+font-style: normal;
+font-weight: 400;
+line-height: 45.485px; /* 122.932% */
+text-transform: uppercase;
+padding-top: 238px;
+}
+
+.background{
+    background-color: #222222;
+}
+
+.text1{
+    color: #8DFD1B;
+font-family: DM Mono,sans;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 31.992px; /* 152.343% */
+
+}
+
+
+
+.text2{
+    color: #FFF;
+
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.6px; /* 160% */
+
+}
+
+
+
