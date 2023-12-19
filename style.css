@@ -1,22 +1,171 @@
-body {
-    background: #000;
-}
+ @import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
 
-.header-text {
-    color: #FFF;
-    font-family: DM Mono, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
-    width: 90px;
-    flex-shrink: 0;
-    text-decoration: none;
-}
+ @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
-.logos {
-    background: #FFF;
-    width: 36px;
-    height: 36px;
-    flex-shrink: 0;
-}
+ @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+
+
+
+ body {
+     background: #000;
+ }
+
+ .container {
+     max-width: 1280px;
+     margin: 0 auto;
+ }
+
+ header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-top: 48px;
+ }
+
+ .header-menu a {
+     color: #FFF;
+     font-family: "DM Mono", sans-serif;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 16px;
+     text-decoration: none;
+ }
+
+ .header-menu a:not(:last-child) {
+     margin-right: 40px;
+ }
+
+ .header-left {
+     display: flex;
+     gap: 40px;
+     align-items: center;
+
+ }
+
+
+ .logos a {
+     background: #FFF;
+     width: 36px;
+     height: 36px;
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ h1 {
+     color: #FFF;
+     font-family: "Audiowide", sans-serif;
+     font-size: 51px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 60.614px;
+     text-transform: uppercase;
+     width: 484px;
+ }
+
+ .under-h1 {
+     color: #FFF;
+     font-family: "Inter", sans-serif;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 25.6px;
+     width: 340px;
+ }
+
+ .btn-first {
+     color: #000;
+     text-align: center;
+     font-family: "DM Mono", sans-serif;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 16px;
+     text-transform: capitalize;
+     padding: 25px 40px;
+     background: #8DFD1B;
+     margin-top: 115px;
+ }
+
+ .hero-section {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .wave-nft {
+     color: #FFF;
+     font-family: "Audiowide", sans-serif;
+     font-size: 38px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 45.485px;
+     text-transform: uppercase;
+     margin-bottom: 0;
+     padding-top: 120px;
+ }
+
+ .collection-of {
+     color: #A8A8A8;
+     font-family: "Audiowide", sans-serif;
+     font-size: 38px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 45.485px;
+     width: 351px;
+     text-transform: uppercase;
+     margin-top: 0;
+ }
+
+ .btn-openSea {
+     color: #FFF;
+     text-align: center;
+     font-family: "DM Mono", sans-serif;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 16px;
+     text-transform: capitalize;
+     background-color: black;
+     padding: 13px 33px;
+     border: 1px solid #8DFD1B;
+     margin-top: 40px;
+ }
+
+ .left-side {
+     color: white;
+ }
+
+ .nft-collections {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .selected-paragraf {
+     border-left: 1px solid #8DFD1B;
+     ;
+     color: #8DFD1B;
+     font-family: "DM Mono", sans-serif;
+     font-size: 21px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 31.992px;
+     width: 546px;
+     padding-left: 22px;
+ }
+
+ .text-left {
+     color: #FFF;
+     font-family: "Inter", sans-serif;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 25.6px;
+     width: 562px;
+ }
