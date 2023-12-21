@@ -243,3 +243,53 @@ h1 {
 .story-texts > p:not(:last-child) {
   margin-bottom: 20px;
 }
+
+.first-button{
+  color: #FFF;
+  font-family: DM Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; 
+  background: #000;
+  width: 282px;
+height: 72px;
+flex-shrink: 0;
+}
+.first-button-section{
+  color: #8DFD1B;
+font-family: DM Mono;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; 
+background: #222;
+width: 282px;
+height: 72px;
+flex-shrink: 0;
+}
+
+
+
+.second-title{
+  color: #FFF;
+font-family: "Audiowide", sans-serif;
+font-size: 79px;
+font-style: normal;
+font-weight: 400;
+line-height: 88px; 
+text-transform: uppercase;
+text-align: center;
+margin-top: 108px;
+}
+
+.name-img{
+  color: #FFF;
+text-align: center;
+font-family: "DM Mono", sans-serif;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.726px; /* 132.03% */
+text-transform: uppercase;
+}
