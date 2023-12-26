@@ -6,6 +6,7 @@
 
 body {
     background: #000;
+    overflow-x: hidden;
 }
 
 .container {
@@ -234,6 +235,8 @@ h1 {
 
 .girl {
     margin-top: 120px;
+    width: 100%;
+    display: block;
 }
 
 .name-section-card {
