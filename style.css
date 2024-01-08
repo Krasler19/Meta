@@ -163,11 +163,11 @@ h1 {
 
 .artist {
   color: #fff;
-  font-family: Audiowide, sans-serif;
+  font-family: "Audiowide", sans-serif;
   font-size: 79px;
   font-style: normal;
   font-weight: 400;
-  line-height: 88px; /* 111.392% */
+  line-height: 88px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -182,7 +182,7 @@ h1 {
 .artist-name {
   color: #fff;
   text-align: center;
-  font-family: DM Mono, sans-serif;
+  font-family: "DM Mono", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -301,7 +301,7 @@ h1 {
 .occupation-img {
   color: #8dfd1b;
   text-align: center;
-  font-family: DM Mono;
+  font-family: "DM Mono", sans-serif;
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
@@ -349,7 +349,7 @@ h1 {
 
 .header-section {
   color: #fff;
-  font-family: Audiowide, sans-serif;
+  font-family: "Audiowide", sans-serif;
   font-size: 51px;
   font-style: normal;
   font-weight: 400;
@@ -363,7 +363,7 @@ h1 {
 
 .first-text {
   color: #fff;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -375,7 +375,7 @@ h1 {
 .last-logos {
   color: #000;
   text-align: center;
-  font-family: DM Mono, sans-serif;
+  font-family: "DM Mono", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -407,7 +407,7 @@ h1 {
 
 .copyright {
   color: #fff;
-  font-family: DM Mono, sans-serif;
+  font-family: "DM Mono", sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -417,7 +417,7 @@ h1 {
 
 .footer-text {
   color: #fff;
-  font-family: DM Mono, sans-serif;
+  font-family: "DM Mono", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -428,233 +428,26 @@ h1 {
   margin-right: 7px;
 }
 
-body {
-  background: #000;
-  overflow-x: hidden;
-}
-
-.container {
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 48px;
-}
-
-.header-menu a {
-  color: #fff;
-  font-family: "DM Mono", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 16px;
-  text-decoration: none;
-}
-
-.header-menu a:not(:last-child) {
-  margin-right: 40px;
-}
-
-.header-left {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-}
-
-.logos a {
-  background: #fff;
-  width: 36px;
-  height: 36px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
-
-h1 {
-  color: #fff;
-  font-family: "Audiowide", sans-serif;
-  font-size: 51px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 60.614px;
-  text-transform: uppercase;
-  width: 484px;
-}
-
-.under-h1 {
-  color: #fff;
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25.6px;
-  width: 340px;
-}
-
-.btn-first {
-  color: #000;
-  text-align: center;
-  font-family: "DM Mono", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 16px;
-  text-transform: capitalize;
-  padding: 25px 40px;
-  background: #8dfd1b;
-  margin-top: 115px;
-}
-
-.hero-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.wave-nft {
-  color: #fff;
-  font-family: "Audiowide", sans-serif;
-  font-size: 38px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 45.485px;
-  text-transform: uppercase;
-  margin-bottom: 0;
-  padding-top: 120px;
-}
-
-.collection-of {
-  color: #a8a8a8;
-  font-family: "Audiowide", sans-serif;
-  font-size: 38px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 45.485px;
-  width: 351px;
-  text-transform: uppercase;
-  margin-top: 0;
-}
-
-.btn-openSea {
-  color: #fff;
-  text-align: center;
-  font-family: "DM Mono", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 16px;
-  text-transform: capitalize;
-  background-color: black;
-  padding: 13px 33px;
-  border: 1px solid #8dfd1b;
-  margin-top: 40px;
-}
-
-.left-side {
-  color: white;
-}
-
-.nft-collections {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.selected-paragraf {
-  border-left: 1px solid #8dfd1b;
-  color: #8dfd1b;
-  font-family: "DM Mono", sans-serif;
-  font-size: 21px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 31.992px;
-  width: 546px;
-  padding-left: 22px;
-}
-
-.text-left {
-  color: #fff;
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25.6px;
-  width: 562px;
-}
-
-.artist {
-  color: #fff;
-  font-family: Audiowide, sans-serif;
-  font-size: 79px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 88px;
-  /* 111.392% */
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.artists {
-  display: flex;
-  justify-content: center;
-  gap: 60px;
-  flex-wrap: wrap;
-}
-
-.artist-name {
-  color: #fff;
-  text-align: center;
-  font-family: DM Mono, sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-.artist-item {
-  width: 20%;
-}
-
-.header-section {
-  color: #fff;
-  text-align: center;
-  font-family: Audiowide, sans-serif;
-  font-size: 37px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 45.485px;
-  /* 122.932% */
-  text-transform: uppercase;
-  padding-top: 238px;
-}
-
 .background {
   background-color: #222222;
 }
 
 .text1 {
   color: #8dfd1b;
-  font-family: DM Mono, sans;
+  font-family: "DM Mono", sans-serif;
   font-size: 21px;
   font-style: normal;
   font-weight: 400;
   line-height: 31.992px;
-  /* 152.343% */
 }
 
 .text2 {
   color: #fff;
-
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 25.6px;
-  /* 160% */
 }
 
 .girl {
